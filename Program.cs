@@ -6,6 +6,7 @@ class Program
 {
     static void Main(string[] arg)
     {
-        Bai5.MENU();
+        int max=Bai6.SolonNhat();
+        Console.WriteLine("so lon nhat la: "+max);
     }
 }
