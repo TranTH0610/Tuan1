@@ -12,3 +12,4 @@ D:\2.C#C++\C #\VSCODE\obj\Debug\net9.0\refint\VSCODE.dll
 D:\2.C#C++\C #\VSCODE\obj\Debug\net9.0\VSCODE.pdb
 D:\2.C#C++\C #\VSCODE\obj\Debug\net9.0\VSCODE.genruntimeconfig.cache
 D:\2.C#C++\C #\VSCODE\obj\Debug\net9.0\ref\VSCODE.dll
+D:\2.C#C++\C #\VSCODE\obj\Debug\net9.0\VSCODE.sourcelink.json
