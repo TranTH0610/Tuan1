@@ -7,16 +7,9 @@ class Program
 {
     static void Main(string[] arg)
     {
-        float a,b,c;
-        Console.WriteLine("nhap so thuc a: ");
-        a=float.Parse(Console.ReadLine() ?? string.Empty);
-        Console.WriteLine("nhap so thuc b: ");
-        b=float.Parse(Console.ReadLine() ?? string.Empty);
-        Console.WriteLine("nhap so thuc c: ");
-        c=float.Parse(Console.ReadLine() ?? string.Empty);
-        float max, min;
-        Bai9.MaxMin( out max, out min, a, b, c);
-        Console.WriteLine("So lon nhat: " + max);
-        Console.WriteLine("So nho nhat: " + min);
+      Console.Write("Nhap chuoi: ");
+        string s = Console.ReadLine() ?? string.Empty;
+
+        Bai12.XuLy(s);
     }
 }
