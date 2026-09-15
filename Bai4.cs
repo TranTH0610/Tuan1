@@ -1,38 +1,36 @@
 using System;
 class Bai4
-{  public static bool SoNguyenTo(int n)
-    {
-        if (n < 2) return false;
-        if (n == 2) return true;
-        for (int i = 2; i <= Math.Sqrt(n); i++)
-        {
-            if (n % i == 0)
-                return false;
-        }
-        return true;
-    }
+{  
+    //Bài 4
+    // Hàm tính x mũ y, trả về kết quả kiểu int.
         public static int TinhHaiSoNguyen()
     {
+         // Tạo biến kq để lưu kết quả tính x mũ y.
         int kq = 0;
-        Console.WriteLine("Nhap x: ");
-        int x = int.Parse(Console.ReadLine() ?? string.Empty);
-        // Bài 4
-        if(!SoNguyenTo(x))
+        int x;
+        int y;
+          // Yêu cầu người dùng nhập số x
+        Console.Write("Nhap x: ");
+        // Kiểm tra x có phải là số nguyên tố hay không
+        if(!int.TryParse(Console.ReadLine(), out x))
         {
-            Console.WriteLine("x khong phai la so nguyen to");
-            return kq;
+            // Thông báo nếu x không phải là số nguyên tố
+            Console.WriteLine("x khong phai la so nguyen ");
+            // Trả về kết quả hiện tại và kết thúc hàm
+            return 0;
         }
-        Console.WriteLine("Nhap y: ");
-        int y = int.Parse(Console.ReadLine() ?? string.Empty);
-        if(!SoNguyenTo(y))
+         // Yêu cầu người dùng nhập số y
+        Console.Write("Nhap y: ");
+        // Kiểm tra y có phải là số nguyên tố hay không
+        if(!int.TryParse((Console.ReadLine()), out y))
         {
-            Console.WriteLine("y khong phai la so nguyen to");
-            return kq;
+             // Thông báo nếu y không phải là số nguyên 
+            Console.WriteLine("y khong phai la so nguyen ");
+            // Trả về kết quả hiện tại và kết thúc hàm
+            return 0;
         }
-        if (SoNguyenTo(x) && SoNguyenTo(y))
-        {
-            kq = (int)Math.Pow(x, y);
-        }
+        kq =(int)Math.Pow(x,y);
+        // Trả về kết quả hiện tại và kết thúc hàm
         return kq;
     }
 }

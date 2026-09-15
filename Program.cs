@@ -39,12 +39,12 @@ class Program
                 break;
             case 3:
                 {
-                    Bai3.TinhHaiSoNguyen();
+                    Console.WriteLine("ket qua x^y: "+ Bai3.TinhHaiSoNguyen());
                 }
                 break;
             case 4:
                 {
-                    Bai4.TinhHaiSoNguyen();
+                    Console.WriteLine("ket qua x^y: "+Bai4.TinhHaiSoNguyen());
                 }
                 break;
             case 5:
