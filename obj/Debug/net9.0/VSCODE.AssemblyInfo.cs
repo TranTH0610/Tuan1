@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VSCODE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f66f3677920b4a7862da6d34b2b2310902414e87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd484b43474332d6b3f154a79afcbe5030128e7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("VSCODE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VSCODE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
