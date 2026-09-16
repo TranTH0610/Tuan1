@@ -30,7 +30,7 @@ class Bai4
             return 0;
         }
         kq =(int)Math.Pow(x,y);
-        // Trả về kết quả hiện tại và kết thúc hàm
+        // Trả về kết quả hiện tại và kết thúc hàm.
         return kq;
     }
 }

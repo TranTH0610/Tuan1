@@ -12,6 +12,6 @@ class bai1
         // Khai báo một biến tên là Hoten string nghĩa là biến dùng để lưu chuỗi ký tự.
         string Hoten = Console.ReadLine() ?? string.Empty;
         Console.WriteLine(Hoten);
-        //Dùng để đọc dữ liệu người dùng nhập từ bàn phím.
+        //Dùng để đọc dữ liệu người dùng nhập từ bàn phím
     }
 }

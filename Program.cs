@@ -54,7 +54,7 @@ class Program
                 break;
             case 6:
                     {
-                        Bai6.SolonNhat();
+                        Console.WriteLine("so lon nhat la: "+Bai6.SolonNhat());
                     }
                     break;
             case 7:

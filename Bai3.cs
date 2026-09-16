@@ -15,6 +15,6 @@ class Bai3
         int y = int.Parse(Console.ReadLine() ?? string.Empty);
         // tính x^y
         kq = (int)Math.Pow(x, y);
-        return kq;// trả về kết quả x^y
+        return kq;// trả về kết quả x^y.
     }
 }
